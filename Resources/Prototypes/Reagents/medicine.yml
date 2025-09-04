@@ -331,9 +331,31 @@
             scale: 1.6
           damage:
             groups: # Goobstation - Cryo rebalance
-              Airloss: -3
+              Airloss: -2 # 1 per damage type per tick at base
               Brute: -3
-              Burn: -3
+              Burn: -4
+        - !type:HealthChange # Omu change - cryox buff
+          conditions:
+          - !type:Temperature
+            max: 213.0
+          - !type:MobStateCondition
+            mobstate: Dead # double the effect while dead
+          scaleByTemperature:
+            min: 100.0
+            max: 213.0
+            scale: 1.6
+          damage:
+            groups:
+              Airloss: -2
+              Brute: -3
+              Burn: -4
+        - !type:ReduceRotting
+          seconds: 1 # effectively halt rotting while being treated
+          conditions:
+          - !type:Temperature
+            max: 213
+          - !type:MobStateCondition
+            mobstate: Dead
 
 - type: reagent
   id: Doxarubixadone
