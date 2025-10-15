@@ -67,6 +67,7 @@
     possibleSets:
     - WeaponMk58Set
     - WeaponT8Set
+    - WeaponTaroSet
     - WeaponTerminusSet
     maxSelectedSets: 1
 

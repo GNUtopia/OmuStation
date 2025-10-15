@@ -63,3 +63,8 @@ selectable-set-warden-rapier-name = Cloak and Rapier
 selectable-set-warden-rapier-description =
     An elegant weapon for the cultured warden,
     or the warden who prefers to get their hands dirty.
+
+selectable-set-taro-name = EG-1 "Taro" Laser Revolver
+selectable-set-taro-description =
+    A battery-fed laser pistol that sports less damage
+    output than the Mk58 but can fire through windows.

@@ -141,3 +141,16 @@
     state: icon
   content:
   - ClothingNeckWardenParryCloakFilled
+
+- type: selectableSet
+  id: WeaponTaroSet
+  name: selectable-set-taro-name
+  description: selectable-set-taro-description
+  sprite:
+    sprite: _Goobstation/Objects/Weapons/Guns/Battery/cell_revolver.rsi
+    state: icon
+  content:
+  - WeaponLaserCellRevolver
+  - PowerCellIRRevolver
+  - PowerCellIRRevolver
+  - PowerCellIRRevolver # taro spawns empty so it gets a third cell here
