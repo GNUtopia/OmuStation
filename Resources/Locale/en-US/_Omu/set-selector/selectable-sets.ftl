@@ -70,6 +70,11 @@ selectable-set-hosoniblade-description =
     This blade's immense size makes it a force to be reckoned with,
     able to cut down any foe in seconds.
 
+selectable-set-svalinn-name = Svalinn Laser Pistol
+selectable-set-svalinn-description =
+    A laser pistol commonly used in self-defense training programs,
+    good for making potshots through windows or when ammo is scarce.
+
 # ERT
 # TO-DO, rename all of these to be Super Mario related and hopefully avoid a cease and desist from nintendo
 

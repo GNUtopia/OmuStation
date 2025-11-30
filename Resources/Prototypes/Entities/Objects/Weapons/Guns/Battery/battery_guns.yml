@@ -346,6 +346,11 @@
     materialComposition:
       Steel: 500
       Gold: 125
+  - type: HitscanBatteryAmmoProvider # omu edit - make this less terrible
+    proto: MediumRedLaser # 7 > 10 damage
+    fireCost: 60
+  - type: Gun
+    fireRate: 3 # 2 > 3 fire rate
 
 - type: entity
   name: retro laser blaster
@@ -579,7 +584,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: Pulse 
+    proto: Pulse
     fireCost: 100 # Omu - ERT Hotfix
   - type: AmmoSelector # Goobstation - Start
     prototypes:
@@ -595,7 +600,7 @@
     verbText: mode-select-verb-text
     key: enum.AmmoSelectorUiKey.Key # Goobstation - End
   - type: Battery
-    maxCharge: 2500 # Omu - ERT Hotfix 
+    maxCharge: 2500 # Omu - ERT Hotfix
     startingCharge: 2500 # Omu - ERT Hotfix
   # Goobstation
   - type: Tag

@@ -69,6 +69,7 @@
     - WeaponMk58Set
     - WeaponT8Set
     - WeaponTerminusSet
+    - WeaponSvalinnSet
     maxSelectedSets: 1
 
 - type: entity

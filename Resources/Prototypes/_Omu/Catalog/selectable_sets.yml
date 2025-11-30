@@ -152,13 +152,25 @@
   content:
   - HosOniBlade
 
+- type: selectableSet
+  id: WeaponSvalinnSet
+  name: selectable-set-svalinn-name
+  description: selectable-set-svalinn-description
+  sprite:
+    sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
+    state: icon
+  content:
+  - WeaponLaserSvalinn
+  - PowerCellMedium
+  - PowerCellMedium
+
 # ERT
 
 - type: selectableSet
   id: ERTShotgunSet
   name: selectable-set-ert-shotgun-name
   description: selectable-set-ert-shotgun-description
-  sprite: 
+  sprite:
     sprite: _Goobstation/Objects/Weapons/Guns/Lever/combatshotgun.rsi
     state: icon
   content:
