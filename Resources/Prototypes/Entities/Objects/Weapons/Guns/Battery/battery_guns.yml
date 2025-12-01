@@ -346,11 +346,6 @@
     materialComposition:
       Steel: 500
       Gold: 125
-  - type: HitscanBatteryAmmoProvider # omu edit - make this less terrible
-    proto: MediumRedLaser # 7 > 10 damage
-    fireCost: 60
-  - type: Gun
-    fireRate: 3 # 2 > 3 fire rate
 
 - type: entity
   name: retro laser blaster
