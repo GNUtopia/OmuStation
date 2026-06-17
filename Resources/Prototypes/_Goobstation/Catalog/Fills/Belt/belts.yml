@@ -39,7 +39,7 @@
       - id: RegenerativeMesh
       - id: Bloodpack
 #      - id: EmergencyMedipen
-      - id: PainMedipen
+      - id: PainMedipen # omu edit
 
 - type: entity
   parent: [ ClothingBeltDeathsquadWebbing, BaseCentcommContraband ]

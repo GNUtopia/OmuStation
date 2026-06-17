@@ -100,7 +100,7 @@
       - id: BoxSterileMask
       - id: NitrousOxideTankFilled # Goobstation
       - id: ClothingMaskBreath # Goobstation
-      - id: PainMedipen # goob edit
+      - id: PainMedipen # omu edit
 
 - type: entity
   id: CrateMedicalScrubs

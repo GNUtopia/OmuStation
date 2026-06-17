@@ -155,7 +155,7 @@
       - id: BoneGel # Shitmed Change
       - id: MedicalStitches # Shitmed Change
       - id: ClothingMaskBreath # Goobstation
-      - id: PainMedipen # goob edit
+      - id: PainMedipen # omu edit
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateMedicalBundle
@@ -175,7 +175,7 @@
       - id: ClothingHandsGlovesNitrile
       - id: EmergencyRollerBedSpawnFolded
       - id: ClothingMaskSterile
-      - id: PainMedipen # goob edit
+      - id: PainMedipen # omu edit
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle

@@ -2,7 +2,7 @@
   name: analgesic medipen
   parent: ChemicalMedipen
   id: PainMedipen
-  description: A rapid dose of morphine to prepare patients for surgery. # goob edit - adjust to fit goob morphine
+  description: A rapid dose of morphine to prepare patients for surgery. # omu edit - adjust to fit goob morphine
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Objects/Specific/Medical/medipen.rsi
@@ -15,13 +15,13 @@
     emptySpriteName: painpen_empty
   - type: Hypospray
     solutionName: pen
-    transferAmount: 6 # goob edit
+    transferAmount: 6 # omu edit
     onlyAffectsMobs: false
     injectOnly: true
   - type: SolutionContainerManager
     solutions:
       pen:
-        maxVol: 6 # goob edit
+        maxVol: 6 # omu edit
         reagents:
         - ReagentId: Morphine
           Quantity: 6
