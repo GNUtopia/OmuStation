@@ -29,6 +29,13 @@
   - type: TargetObjective
     title: objective-condition-teach-lesson-title
   - type: PickRandomPerson
+    filters: # DeltaV
+    - !type:ObjectiveImmuneFilter
+    - !type:BodyMindFilter # Omu
+      inverted: true
+      whitelist:
+        components:
+        - TargetObjectiveImmune
 
 
 - type: entity
@@ -43,4 +50,15 @@
     unique: true
   - type: TargetObjective
     title: objective-condition-teach-lesson-title
-  - type: PickRandomHead
+  - type: PickRandomPerson
+    filters:
+    - !type:ObjectiveImmuneFilter # DeltaV
+    - !type:BodyMindFilter # Omu
+      inverted: true
+      whitelist:
+        components:
+        - TargetObjectiveImmune
+    - !type:BodyMindFilter
+      whitelist:
+        components:
+        - CommandStaff

@@ -123,7 +123,6 @@
     children:
     - id: Handcuffs
     - id: Handcuffs
-    - id: Handcuffs
     - id: HoloprojectorSecurity
     - id: RadioHandheldSecurity
     - id: WeaponDisabler #Goobstation
@@ -176,8 +175,12 @@
       item2:
       - WeaponPistolJackal
   - type: DivineIntervention
+    validSpellDenialSlots:
+    - BELT
   - type: Reflect
     reflectProb: 1
+    slotFlags:
+    - BELT
     reflects:
     - Magic
   - type: Tag
@@ -244,7 +247,7 @@
 
 - type: entity
   id: ClothingBeltHolsterFilledBlueshield
-  parent: ClothingBeltHolster
+  parent: [ClothingBeltHolster, BaseCentcommContraband] # Omu, add CC contra tag
   suffix: Filled, EG-4
   components:
   - type: ContainerFill
@@ -256,7 +259,7 @@
     - id: EnergySpeedloaderLethal
     - id: EnergySpeedloaderLethal
     - id: EnergySpeedloaderDisabler
-
+    - id: EnergySpeedloaderDisabler # Omu, 2nd disabler speedloader
 - type: entity
   id: ClothingBeltMilitaryRigGrenadierFilled
   parent: ClothingBeltMilitaryRigGrenadier
