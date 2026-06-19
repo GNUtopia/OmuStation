@@ -37,6 +37,18 @@
     JuiceThatMakesYouWeh: 60
   recipeType: MedicalAssembler
 
+- type: microwaveMealRecipe
+  id: RecipePainMedipen
+  name: analgesic medipen
+  result: PainMedipen
+  time: 5
+  group: Medicinal
+  solids:
+    BlankMediPen: 1
+  reagents:
+    Morphine: 6
+  recipeType: MedicalAssembler
+
 ## Cartridges
 - type: microwaveMealRecipe
   id: RecipeCartridgeBrute
