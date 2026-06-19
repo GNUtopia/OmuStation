@@ -1,5 +1,5 @@
 {
-    "version": 1,
+    "version": 2,
     "license": "CC-BY-SA-3.0",
     "copyright": "created by gnusnotutopia",
     "size": {
@@ -16,6 +16,22 @@
         },
         {
             "name": "inhand-right",
+            "directions": 4
+        },
+        {
+            "name": "lunging-inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "lunging-inhand-right",
+            "directions": 4
+        },
+        {
+            "name": "leaping-inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "leaping-inhand-right",
             "directions": 4
         }
     ]

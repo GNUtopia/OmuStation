@@ -56,9 +56,9 @@
     sprite: _Omu/Objects/Weapons/Melee/wardenrapier.rsi
   - type: MeleeWeapon
     angle: 0
-    animationRotation: -90
+    animationRotation: -135
     wideAnimationRotation: -90
-    heavyStaminaCost: 2.5
+    heavyStaminaCost: 10
     damage:
       types:
         Piercing: 20 # slightly more than the captain sabre but with less attack speed, idk how high this should really be
@@ -68,6 +68,7 @@
     shape:
     - 0,0,0,3
     storedRotation: -45
+    sprite: _Omu/Objects/Weapons/Melee/wardenrapier.rsi
   - type: MeleeDash
     emoteOnDash: null
     length: 2
@@ -83,6 +84,46 @@
   - type: Reflect
     reflectProb: 0.3
     spread: 30
+  - type: ItemSwitch
+    defaultState: lunging
+    state: "lunging"
+    showLabel: true
+    states:
+      lunging: !type:ItemSwitchState
+        verb: lunging
+        sprite:
+          sprite: _Omu/Objects/Weapons/Melee/wardenrapier.rsi
+          state: icon
+        components:
+        - type: MeleeWeapon
+          angle: 0
+          animationRotation: -135
+          wideAnimationRotation: -135
+          attackRate: 1
+          damage:
+            types:
+              Piercing: 20
+          soundHit:
+              path: /Audio/Weapons/bladeslice.ogg
+
+      leaping: !type:ItemSwitchState
+        verb: leaping
+        sprite:
+          sprite: _Omu/Objects/Weapons/Melee/wardenrapier.rsi
+          state: icon
+        components:
+        - type: MeleeWeapon
+          angle: 0
+          animationRotation: 0
+          wideAnimationRotation: 0
+          attackRate: 1
+          damage:
+            types:
+              Blunt: 8 # pommel strike
+          soundHit:
+            path: /Audio/_Goobstation/Weapons/Baton/woodhit.ogg
+        - type: StaminaDamageOnHit
+          damage: 11 # 15 total
 
 - type: entity
   name: The Wind of the Steppes
