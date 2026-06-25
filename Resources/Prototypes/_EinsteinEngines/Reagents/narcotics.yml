@@ -31,10 +31,10 @@
         emote: Yawn
         showInChat: true
         probability: 0.03
-      - !type:Drunk # goob edit - replace drowsiness
-        boozePower: 4
+      - !type:Drunk # omu edit - replace drowsiness
+        boozePower: 2
         slurSpeech: false
-      - !type:MovespeedModifier # goob edit - replace drowsiness
+      - !type:MovespeedModifier # omu edit - replace drowsiness
         walkSpeedModifier: 0.85
         sprintSpeedModifier: 0.85
       - !type:SuppressPain
